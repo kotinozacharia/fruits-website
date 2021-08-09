@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+.flex-container{
+	/*position: fixed;
+	top: 0;*/
+	display: flex;
+	background-color: green;
+	width: 100%;
+	max-height: 100px;
+	justify-content: space-between;
+}
+.logo> img{
+	height: 80px;
+	width: 80px;
+	padding: 10px;
+	border-radius: 50%;
+	margin-top: 8px;
+	/*border: 5px solid black*/;
+}
+.nav_items{
+	display: flex;
+	margin-left: 0px;
+	text-transform: uppercase;
+	padding: 40px;
+}
+a{
+	justify-content: space-between;
+	margin-left: 10px;
+	background-color: grey;
+	padding: 10px;
+	border-radius: 25px;
+}
+a:hover{
+	background-color: white;
+}
+.logo> img:hover{
+	background-color: orange;
+}
+.display-pic > img{
+	width: 100%;
+	max-height: 400px;
+	opacity: 1;
+}
+.main_section{
+	margin-top: 10px;
+	/*background-image: url("images/cherry.jpg");*/
+	height: 1000px;
+}
+.welcome>h1{
+	color: black;
+	font-weight: bold;
+	size:100px;
+	text-transform: uppercase;
+}
+.welcome{
+	margin-top: 50px;
+	text-align: center;
+}
+.attraction{
+	margin-top: 30px;
+
+}
+button{
+	background-color: green;
+	margin-top: 100px;
+	padding: 20px;
+	border-radius: 20px;
+	transition: width 1s ;
+
+}
+button:hover{
+	background-color: orange;
+	width: 200px;
+	text-transform: uppercase;
+
+}
+body{
+	background-image: url("images/cherry.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    animation: animatedBackground 10s linear infinite alternate;
+}
+.row{
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 2px;
+	height: 100px;
+}
+.footer_left,.footer_middle,.footer_left{
+	margin-top: 30px;
+}
+.copyright{
+	text-align: center;
+}
